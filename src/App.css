@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(232, 243, 157);
+  padding: 16px;
+  color: brown;
+  width: 100%;
+}
+
+.form {
+   margin-top: 20px;
+}
+
+.data {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data_val {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 0px 9px 0px 9px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
